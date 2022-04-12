@@ -24,7 +24,7 @@ With the exponential growth of vehicles, there is also a rapid increase in road 
 ![Install Aimeos TYPO3 extension](https://aimeos.org/docs/images/Aimeos-typo3-extmngr-install.png)
 
 
-Show instructions
+<details><summary><b>Show instructions</b></summary>
 
 1. Install the preset:
 
