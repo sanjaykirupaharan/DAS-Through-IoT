@@ -1,4 +1,4 @@
-#Get the real time location
+#Get the real time location and store it to the Firebase Real-time database
 #https://www.hackster.io/bhushanmapari/interfacing-u-blox-neo-6m-gps-module-with-raspberry-pi-3d15a5
 
 import serial
