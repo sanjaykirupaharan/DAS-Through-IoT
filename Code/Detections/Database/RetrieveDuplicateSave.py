@@ -1,3 +1,4 @@
+#Find the duplicated coordinates and store the filtered coordinates to the Firebase Firestore
 import random
 import pandas as pd
 from datetime import datetime
