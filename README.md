@@ -44,6 +44,7 @@ With the exponential growth of vehicles, there is also a rapid increase in road 
        "test": "jest && eslint ."
      }
    ```
+</details>
 
 One to a two-paragraph statement about your product and what it does.
 
