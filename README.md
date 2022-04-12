@@ -7,46 +7,43 @@ With the exponential growth of vehicles, there is also a rapid increase in road 
 ## Table of content
 
 - [Installation](#installation)
-    - [TER](#typo3-extension-repository)
-    - [Composer](#composer)
+  - [TER](#typo3-extension-repository)
+  - [Composer](#composer)
 - [TYPO3 setup](#typo3-setup)
-    - [Extension](#extension)
-    - [Database](#database)
+  - [Extension](#extension)
+  - [Database](#database)
 - [Page setup](#page-setup)
-    - [Upload the page tree file](#upload-the-page-tree-file)
-    - [Go to the import view](#go-to-the-import-view)
-    - [Import the page tree](#import-the-page-tree)
-    - [SEO-friendly URLs](#seo-friendly-urls)
+  - [Upload the page tree file](#upload-the-page-tree-file)
+  - [Go to the import view](#go-to-the-import-view)
+  - [Import the page tree](#import-the-page-tree)
+  - [SEO-friendly URLs](#seo-friendly-urls)
 - [License](#license)
 - [Links](#links)
 
 ![Install Aimeos TYPO3 extension](https://aimeos.org/docs/images/Aimeos-typo3-extmngr-install.png)
 
-
 <details><summary><b>Show instructions</b></summary>
 
 1. Install the preset:
 
-    ```sh
-    $ npm install --save-dev size-limit @size-limit/file
-    ```
+   ```sh
+   $ npm install --save-dev size-limit @size-limit/file
+   ```
 
 2. Add the `size-limit` section and the `size` script to your `package.json`:
 
-    ```diff
-    + "size-limit": [
-    +   {
-    +     "path": "dist/app-*.js"
-    +   }
-    + ],
-      "scripts": {
-        "build": "webpack ./webpack.config.js",
-    +   "size": "npm run build && size-limit",
-        "test": "jest && eslint ."
-      }
-    ```
-
-
+   ```diff
+   + "size-limit": [
+   +   {
+   +     "path": "dist/app-*.js"
+   +   }
+   + ],
+     "scripts": {
+       "build": "webpack ./webpack.config.js",
+   +   "size": "npm run build && size-limit",
+       "test": "jest && eslint ."
+     }
+   ```
 
 One to a two-paragraph statement about your product and what it does.
 
@@ -83,24 +80,24 @@ npm test
 
 ## Release History
 
-* 0.2.1
-    * CHANGE: Update docs (module code remains unchanged)
-* 0.2.0
-    * CHANGE: Remove `setDefaultXYZ()`
-    * ADD: Add `init()`
-* 0.1.1
-    * FIX: Crash when calling `baz()` (Thanks @GenerousContributorName!)
-* 0.1.0
-    * The first proper release
-    * CHANGE: Rename `foo()` to `bar()`
-* 0.0.1
-    * Work in progress
+- 0.2.1
+  - CHANGE: Update docs (module code remains unchanged)
+- 0.2.0
+  - CHANGE: Remove `setDefaultXYZ()`
+  - ADD: Add `init()`
+- 0.1.1
+  - FIX: Crash when calling `baz()` (Thanks @GenerousContributorName!)
+- 0.1.0
+  - The first proper release
+  - CHANGE: Rename `foo()` to `bar()`
+- 0.0.1
+  - Work in progress
 
 ## Meta
 
 Your Name – [@YourTwitter](https://twitter.com/dbader_org) – YourEmail@example.com
 
-Distributed under the XYZ license. See ``LICENSE`` for more information.
+Distributed under the XYZ license. See `LICENSE` for more information.
 
 [https://github.com/yourname/github-link](https://github.com/dbader/)
 
@@ -113,6 +110,7 @@ Distributed under the XYZ license. See ``LICENSE`` for more information.
 5. Create a new Pull Request
 
 <!-- Markdown link & img dfn's -->
+
 [npm-image]: https://img.shields.io/npm/v/datadog-metrics.svg?style=flat-square
 [npm-url]: https://npmjs.org/package/datadog-metrics
 [npm-downloads]: https://img.shields.io/npm/dm/datadog-metrics.svg?style=flat-square
