@@ -1,3 +1,4 @@
+#Drowsiness detection using Mediapipe. When diver close his eyes more than 3 sec alarm will trigger
 import cv2 as cv
 import mediapipe as mp
 import time
@@ -13,7 +14,7 @@ frame_counter = 0
 CEF_COUNTER = 0
 
 # constants
-CLOSED_EYES_FRAME = 70
+CLOSED_EYES_FRAME = 70 # 3*fps
 FONTS = cv.FONT_HERSHEY_COMPLEX
 
 # Left eyes indices
@@ -85,15 +86,15 @@ def sound_alarm(path):
 
 def message():
     # Through Twilio send a message and make a call
-    account_sid = "AC13105bbd4e802e2b2022dadb2e342a3f"  # Put your Twilio account SID here
-    auth_token = "ba7d3f9a392eed50c84d91e2ea243931"  # Put your auth token here
+    account_sid = "<account_sid>"  # Put your Twilio account SID here
+    auth_token = "<auth_token>"  # Put your auth token here
 
     client = Client(account_sid, auth_token)
 
     # Send a message
     message = client.api.account.messages.create(
-        to="+94765266417",  # Put your cellphone number here
-        from_="+17755229292",  # Put your Twilio number here
+        to="+<receiver>",  # Put your cellphone number here
+        from_="+<sender>",  # Put your Twilio number here
         body="Driver is Sleeping....")
     print("[INFO] sending message...")
 
@@ -117,13 +118,13 @@ def pipeline(frame):
             if ratio > 3.5:
                 CEF_COUNTER += 1
 
-                if CEF_COUNTER <= 25:
+                if CEF_COUNTER <= 25: #1*fps
                     utils.colorBackgroundText(frame, f'1', FONTS, 5, (430, 200), 6, utils.WHITE, utils.RED, pad_x=4,
                                               pad_y=6, )
-                elif CEF_COUNTER <= 50:
+                elif CEF_COUNTER <= 50: #2*fps
                     utils.colorBackgroundText(frame, f'2', FONTS, 5, (430, 200), 6, utils.WHITE, utils.RED, pad_x=4,
                                               pad_y=6, )
-                elif CEF_COUNTER <= CLOSED_EYES_FRAME:
+                elif CEF_COUNTER <= CLOSED_EYES_FRAME: #3*fps
                     utils.colorBackgroundText(frame, f'3', FONTS, 5, (430, 200), 6, utils.WHITE, utils.RED, pad_x=4,
                                               pad_y=6, )
                 if CEF_COUNTER > CLOSED_EYES_FRAME:
