@@ -1,18 +1,55 @@
+<h1 align="center">Computer vision and Deep learning-based Driver Assistant System using IoT</h1>
+
+# Computer vision and Deep learning-based Driver Assistant System using IoT
+> The whole system was run and tested on Pycharm IDE except 'FirebasePiLocationUpdate.py' which is tested on Raspberry pi.
+
+With the exponential growth of vehicles, there is also a rapid increase in road accidents, about 80% of which are caused by human error. To ensure the safety of the user and the vehicle, it is important to develop a system that continuously guides the driver or automatically drives the vehicle. The vehicle industry and the government are therefore focusing more on accident prevention by introducing better road safety systems for the public. A driver assistance system is an intelligent development of road safety that detects the environment of a moving vehicle, helps the driver to avoid danger and warns the driver of impending danger. With the advancement of current technology, the automotive industry is equipped with IoT-based data transfer mechanisms, under the concept of a “connected car”, passengers and other vehicles connected to the internet can share data with backend applications. Data includes the current location, the distance travelled by the vehicle, whether the vehicle needs emergency services and more. This prototype is mainly focused on developing intelligent driver assistance systems based on computer vision and deep learning, which can prevent accidents by detecting drowsy, harmful objects at an early stage and warning drivers with the traffic signs and road lane lines. The system is capable of passing emergency messages to drivers and other connected vehicles via a website and communicating in the real-time map generated within the system. The proposed system was implemented and tested in multiple detection scenarios, where machine learning improved the accuracy of the results.
+
+## Table of content
+
+- [Installation](#installation)
+    - [TER](#typo3-extension-repository)
+    - [Composer](#composer)
+- [TYPO3 setup](#typo3-setup)
+    - [Extension](#extension)
+    - [Database](#database)
+- [Page setup](#page-setup)
+    - [Upload the page tree file](#upload-the-page-tree-file)
+    - [Go to the import view](#go-to-the-import-view)
+    - [Import the page tree](#import-the-page-tree)
+    - [SEO-friendly URLs](#seo-friendly-urls)
+- [License](#license)
+- [Links](#links)
+
+![Install Aimeos TYPO3 extension](https://aimeos.org/docs/images/Aimeos-typo3-extmngr-install.png)
+
+
+Show instructions
+
+1. Install the preset:
+
+    ```sh
+    $ npm install --save-dev size-limit @size-limit/file
+    ```
+
+2. Add the `size-limit` section and the `size` script to your `package.json`:
+
+    ```diff
+    + "size-limit": [
+    +   {
+    +     "path": "dist/app-*.js"
+    +   }
+    + ],
+      "scripts": {
+        "build": "webpack ./webpack.config.js",
+    +   "size": "npm run build && size-limit",
+        "test": "jest && eslint ."
+      }
+    ```
 
 
 
-
-
-# DAS-Through-IoT
-> Computer vision and Deep learning based Driver Assistant System using IoT.
-<br>
-Whole system except 'FirebasePiLocationUpdate.py' run and tested on Pycharm IDE.
-
-[![NPM Version][npm-image]][npm-url]
-[![Build Status][travis-image]][travis-url]
-[![Downloads Stats][npm-downloads]][npm-url]
-
-One to two paragraph statement about your product and what it does.
+One to a two-paragraph statement about your product and what it does.
 
 ![](header.png)
 
