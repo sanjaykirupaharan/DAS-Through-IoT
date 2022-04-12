@@ -9,10 +9,10 @@ from firebase_admin import credentials
 # https://morioh.com/p/a593f973aff0
 
 # Fetch the service account key JSON file contents
-cred = credentials.Certificate('test-dataentry-firebase-adminsdk-xfc6m-b6b604539a.json')
+cred = credentials.Certificate('<firebase SDK json file>')
 # Initialize the app with a service account, granting admin privileges
 firebase_admin.initialize_app(cred, {
-    'databaseURL': 'https://test-dataentry-default-rtdb.firebaseio.com/'
+    'databaseURL': '<firebase database URL>'
 })
 
 
