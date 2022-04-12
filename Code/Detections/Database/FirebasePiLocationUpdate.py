@@ -1,3 +1,6 @@
+#Get the real time location
+#https://www.hackster.io/bhushanmapari/interfacing-u-blox-neo-6m-gps-module-with-raspberry-pi-3d15a5
+
 import serial
 import pynmea2
 
@@ -11,11 +14,11 @@ from datetime import datetime
 # https://morioh.com/p/a593f973aff0
 
 # Fetch the service account key JSON file contents
-cred = credentials.Certificate('test-dataentry-firebase-adminsdk-xfc6m-d23173c910.json')
+cred = credentials.Certificate('<firebase SDK json file>')
 
 # Initialize the app with a service account, granting admin privileges
 firebase_admin.initialize_app(cred, {
-    'databaseURL': 'https://test-dataentry-default-rtdb.firebaseio.com/'
+    'databaseURL': '<firebase database URL>'
 })
 
 
