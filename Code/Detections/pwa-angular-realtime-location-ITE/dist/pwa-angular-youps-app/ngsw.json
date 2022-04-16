@@ -1,0 +1,140 @@
+{
+  "configVersion": 1,
+  "timestamp": 1624126062372,
+  "index": "/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/5-es2015.c2540c7cb7917f45f14a.js",
+        "/5-es5.c2540c7cb7917f45f14a.js",
+        "/6-es2015.9628e017d535a7d591e7.js",
+        "/6-es5.9628e017d535a7d591e7.js",
+        "/firebase-messaging-sw.js",
+        "/index.html",
+        "/main-es2015.e5145db2c6ae81e4a402.js",
+        "/main-es5.e5145db2c6ae81e4a402.js",
+        "/manifest.webmanifest",
+        "/polyfills-es2015.95bb65e853d2781ac3bd.js",
+        "/polyfills-es5.341d48ffc88eaeae911d.js",
+        "/runtime-es2015.407499347f8ecf9aeec8.js",
+        "/runtime-es5.407499347f8ecf9aeec8.js",
+        "/styles.6b1d20aff9c9410902e3.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/assets/icons/android-144x144.png",
+        "/assets/icons/android-192x192.png",
+        "/assets/icons/android-36x36.png",
+        "/assets/icons/android-48x48.png",
+        "/assets/icons/android-72x72.png",
+        "/assets/icons/android-96x96.png",
+        "/assets/icons/apple-touch-icon-180x180.png",
+        "/assets/icons/favicon-16x16.png",
+        "/assets/icons/favicon-32x32.png",
+        "/assets/icons/favicon.ico",
+        "/assets/icons/pwa-192x192.png",
+        "/assets/icons/pwa-512x512.png",
+        "/assets/imgs/avatar-photo.jpg",
+        "/assets/imgs/car.svg",
+        "/assets/imgs/car_pin.svg",
+        "/assets/imgs/car_small.svg",
+        "/assets/imgs/loader.svg",
+        "/assets/imgs/lte.png",
+        "/assets/imgs/oval.svg",
+        "/assets/imgs/pin.svg",
+        "/assets/imgs/stop.svg",
+        "/assets/imgs/three-dots.svg",
+        "/assets/imgs/youps_package.png",
+        "/assets/imgs/youps_package.svg",
+        "/assets/imgs/zebra.svg",
+        "/assets/styles/colors.scss",
+        "/car.494e15d9c09fdc36b55e.svg",
+        "/car_small.30c95ff2b629d1af700a.svg",
+        "/lte.88f1b2a64a6c43ab0758.png",
+        "/three-dots.b98a8c76a048247a195c.svg",
+        "/youps_package.6a17d8a6e86c43db9638.svg"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/5-es2015.c2540c7cb7917f45f14a.js": "8c1afc70075f21c572cec881a9809c461505a10e",
+    "/5-es5.c2540c7cb7917f45f14a.js": "427ff7384fd800b2dcb0bb089c548b5eac6d5896",
+    "/6-es2015.9628e017d535a7d591e7.js": "b1a34207046d4c1b7d50cdc6ce5ca85e05a27510",
+    "/6-es5.9628e017d535a7d591e7.js": "b1a34207046d4c1b7d50cdc6ce5ca85e05a27510",
+    "/assets/icons/android-144x144.png": "7e55e6f66ee6e98b442e98462d60f22729975d64",
+    "/assets/icons/android-192x192.png": "57ff4655d6e75ddd54a0c52de0e5218707e588f3",
+    "/assets/icons/android-36x36.png": "978f17cf01b8f0d66d6058a475fb9220e1dc8b1f",
+    "/assets/icons/android-48x48.png": "200788f55f53ca76119603b62c425925f02c377b",
+    "/assets/icons/android-72x72.png": "5a518d2fa0dcd46482e65ae1eda3b15e73db9e5b",
+    "/assets/icons/android-96x96.png": "4ccd3710a0b1c4bfa53bf3f352e67b6b242ac53b",
+    "/assets/icons/apple-touch-icon-180x180.png": "184a291f730bfef8ec090a59fabca951847b56f1",
+    "/assets/icons/favicon-16x16.png": "2609800590f0ec64ae28551ebbdf50406b3b3d8a",
+    "/assets/icons/favicon-32x32.png": "172bc493974fb0825a12816107115a91d66ea47a",
+    "/assets/icons/favicon.ico": "69ef010a5e4e401c33b8c71eebb3d1ea0018e41f",
+    "/assets/icons/pwa-192x192.png": "c177a2187892cb10515314c3e2a23fa898bdec64",
+    "/assets/icons/pwa-512x512.png": "61da0f739800eb97dc251760a8a735b8b6af20b4",
+    "/assets/imgs/avatar-photo.jpg": "20f83d2af4e555533293745e21646951b4bb9bff",
+    "/assets/imgs/car.svg": "3039f340d4dfbcbb492fc9e0517a00317df580b6",
+    "/assets/imgs/car_pin.svg": "e68f4e35e64fbe6b3e360f4891bc7158fc08f27d",
+    "/assets/imgs/car_small.svg": "20ffbf37de0938e9db4766fffa49c1753fa2f68a",
+    "/assets/imgs/loader.svg": "d920fd8ee899abbe0ad68759d593c287e0494724",
+    "/assets/imgs/lte.png": "6adfcb8bb3b0402626db492bdfed65f25d5be531",
+    "/assets/imgs/oval.svg": "bf71c65eaf348b40964ce9aaf0e384d4653c1252",
+    "/assets/imgs/pin.svg": "3b5ada4ffddc40d72c0f3f4eba9339079deb3c65",
+    "/assets/imgs/stop.svg": "e9b58183751261bed0098b0d9fb9d67160e83654",
+    "/assets/imgs/three-dots.svg": "b638e975a151ce064cd63d5e155228a280ca6f84",
+    "/assets/imgs/youps_package.png": "11d38bbe43ef42de7aefa1787b8ff8ac3da738a8",
+    "/assets/imgs/youps_package.svg": "aff64505a173894b200fd7dd713239e9df1eef34",
+    "/assets/imgs/zebra.svg": "5af0bdb2f138006f5dc5f773386cc55413601514",
+    "/assets/styles/colors.scss": "5e4591a2edc99009680a07ed48081e8c41cf3d36",
+    "/car.494e15d9c09fdc36b55e.svg": "3039f340d4dfbcbb492fc9e0517a00317df580b6",
+    "/car_small.30c95ff2b629d1af700a.svg": "20ffbf37de0938e9db4766fffa49c1753fa2f68a",
+    "/firebase-messaging-sw.js": "d19b7f472e70fa2ed88d1f5ca57337e523313404",
+    "/index.html": "f4e8b7f50283d5538ba11337eff4e1cef4c86e7c",
+    "/lte.88f1b2a64a6c43ab0758.png": "6adfcb8bb3b0402626db492bdfed65f25d5be531",
+    "/main-es2015.e5145db2c6ae81e4a402.js": "8ecb56e735863eacd9107879200e8fcb69bf7a5c",
+    "/main-es5.e5145db2c6ae81e4a402.js": "c34732dce671c17204396972fad7b8f95808dd6e",
+    "/manifest.webmanifest": "4a1cf19344b6ce58ecf5139547a677ece1d50c9b",
+    "/polyfills-es2015.95bb65e853d2781ac3bd.js": "72ad4ccc0a3916ae4598199447cdeadd6d380570",
+    "/polyfills-es5.341d48ffc88eaeae911d.js": "442e1fb669242444ee6bc39ba65c59b2ec5c5dab",
+    "/runtime-es2015.407499347f8ecf9aeec8.js": "9d637242dcc5ef6294504621870e5da8eb5d387d",
+    "/runtime-es5.407499347f8ecf9aeec8.js": "403fd052a81cdb9dd2772583b49dee6a80240718",
+    "/styles.6b1d20aff9c9410902e3.css": "91bc60c7ba8338c242e86e3f1a9254bfdae52d55",
+    "/three-dots.b98a8c76a048247a195c.svg": "b638e975a151ce064cd63d5e155228a280ca6f84",
+    "/youps_package.6a17d8a6e86c43db9638.svg": "aff64505a173894b200fd7dd713239e9df1eef34"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ]
+}
