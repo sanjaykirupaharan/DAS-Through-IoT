@@ -1,0 +1,33 @@
+@import './../../../assets/styles/colors.scss';
+
+.landing-page-container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 32px;
+
+    .landing-page-top {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+        .landing-page-youps-truck {
+            background: url('./../../../assets/imgs/lte.png') no-repeat;
+            background-size: cover;
+            background-position: center;
+            width: 300px;
+            height: 300px;
+        }    
+    
+        .landing-page-youps-msg {
+            color: dimgray;
+            width: 200px;
+            margin-bottom: 32px;
+        }
+    }
+}
