@@ -2,12 +2,16 @@
 
 > The whole system was run and tested on Pycharm IDE except 'FirebasePiLocationUpdate.py' which is tested on Raspberry pi.
 
-![alt text](https://github.com/hirushiharan/DAS-Through-IoT/blob/main/imgs/Proposed-Image_Real.jpg?raw=true)
 
 With the exponential growth of vehicles, there is also a rapid increase in road accidents, about 80% of which are caused by human error. To ensure the safety of the user and the vehicle, it is important to develop a system that continuously guides the driver or automatically drives the vehicle. The vehicle industry and the government are therefore focusing more on accident prevention by introducing better road safety systems for the public. A driver assistance system is an intelligent development of road safety that detects the environment of a moving vehicle, helps the driver to avoid danger and warns the driver of impending danger. With the advancement of current technology, the automotive industry is equipped with IoT-based data transfer mechanisms, under the concept of a “connected car”, passengers and other vehicles connected to the internet can share data with backend applications. Data includes the current location, the distance travelled by the vehicle, whether the vehicle needs emergency services and more. This prototype is mainly focused on developing intelligent driver assistance systems based on computer vision and deep learning, which can prevent accidents by detecting drowsy, harmful objects at an early stage and warning drivers with the traffic signs and road lane lines. The system is capable of passing emergency messages to drivers and other connected vehicles via a website and communicating in the real-time map generated within the system. The proposed system was implemented and tested in multiple detection scenarios, where machine learning improved the accuracy of the results.
 
+![alt text](https://github.com/hirushiharan/DAS-Through-IoT/blob/main/imgs/Proposed-Image_Real.jpg?raw=true)
+
+
 ## Table of content
 
+-  [Introduction](#introduction)
+  - [Project Overview](#project_overview)
 - [Installation](#installation)
   - [TER](#typo3-extension-repository)
   - [Composer](#composer)
@@ -22,35 +26,26 @@ With the exponential growth of vehicles, there is also a rapid increase in road 
 - [License](#license)
 - [Links](#links)
 
-![Install Aimeos TYPO3 extension](https://aimeos.org/docs/images/Aimeos-typo3-extmngr-install.png)
+## Introduction
 
-<details><summary><b>Show instructions</b></summary>
+In recent decades, artificial intelligence has experienced rapid significant growth in the automotive industry. Most well-known car companies have approached autonomous vehicles for customers. However, the computer can make mistakes. In this study, we aim to provide a driver collision avoidance hardware implementation that interfaces with real-time video processing techniques and IoT. Instead of sensors, the proposed innovative system is equipped with cameras that would be placed inside and outside the vehicle. The cameras collect the necessary data such as; lane lines, signs, pedestrians, traffic lights, drowsiness and the weather. At the same time, the collected data will be analyzed through various computer vision and deep learning algorithms, and the processed data will be shown to the driver, and in the meantime, various data on our website will be shared via the Internet. The required output is shown to the driver or registered user of our website.
 
-1. Install the preset:
+## Project Overview 
+With the rapid development of science and technology, every year we are losing so many human lives due to automobile accidents and disabling a much more. Those losses are costing nations, losing human capital and cause for individual families are insurmountable- non-calculable. According to statistics from the world health organization (WHO), approximately 1.3 million people will die each year in traffic accidents by 2021. 93% of deaths on the world's roads occur in low- and middle-income countries, even though these countries own about 60% of the world's vehicles. Therefore, the automobile industry and governments are paying more attention to accident prevention by introducing improved road safety systems for the public. Due to technological advances in the embedded systems, artificial intelligence (AI) and computer vision industries, and the internet of things (IoT), we can save millions of lives. Therefore, new trends such as driver assistance systems (DAS) and autonomous driving have been explored over the past decade.
 
-   ```sh
-   $ npm install --save-dev size-limit @size-limit/file
-   ```
+Self-driving cars recognize the unavoidable accidents that can happen, regardless of the quality of the electronic components or systems, there is no guarantee that failures will not occur. Compared to DAS, self-driving cars have less impact on the prevention of traffic accidents, because they cannot operate like humans and make accurate decisions. The sole motivation behind the development of DAS is that it helps drivers drive more safely by working before something happens. Therefore, with the development of telecommunication services, embedded systems and computer vision technology, DAS is an essential part of smart transport. Recently, the development of DAS has shown positive results in the integration of traffic sources, real-time vehicle status and monitoring of the driving environment.
 
-2. Add the `size-limit` section and the `size` script to your `package.json`:
+DAS generally consists of two parts: active safety and passive safety. Passive safety relies on certain devices, such as seat belts, airbags and bumpers, to protect passengers and reduce injuries. Passive safety alone cannot improve driving safety. 93% of road accidents are due to a lack of awareness among drivers while driving. In addition, it is reported that if the driver is warned just 1.5 seconds before the incident, 90% of dangerous accidents can be avoided. In the automotive industry, a small mistake can cause personal injury or death, so extreme safety precautions must be taken.
 
-   ```diff
-   + "size-limit": [
-   +   {
-   +     "path": "dist/app-*.js"
-   +   }
-   + ],
-     "scripts": {
-       "build": "webpack ./webpack.config.js",
-   +   "size": "npm run build && size-limit",
-       "test": "jest && eslint ."
-     }
-   ```
-</details>
+Recently, the IoT has continued to evolve, with the concept of connecting everything to everyone via the internet. The integration of machine learning and the IoT has great potential to improve the performance of different systems. According to the research available in the current literature, distraction is considered the leading cause of traffic accidents and can be avoided by deploying IoT-based DAS.
 
-One to a two-paragraph statement about your product and what it does.
+As mentioned above, future technological developments can solve all the inconveniences caused and able to improve the efficiency of the system. In addition, major high-end car brands such as BMW, Volvo and Tesla have delivered more advanced driver assistance features and achieved significant success. The problem is that these brands are unaffordable for drivers in underdeveloped countries or the developing world. That is why we provide creative and innovative technical support to the mass market for car owners in less developed countries. This is a hybrid mode intelligent DAS with reliable and stable operation. The hybrid model of autonomous systems and human decision-making processes has surpassed the operation of a single autonomous system or human vehicle. The proposed system is fully aimed at improving safety by preventing accidents while also warning the driver. Most accidents that we believe, can be avoided provide technical support which could be affordable for a mass market of vehicle owners.
 
-![](header.png)
+![alt text](https://github.com/hirushiharan/DAS-Through-IoT/blob/main/imgs/Intro.png?raw=true)
+
+In this research, we proposed the concept of developing a DAS based on the IoT to create a large-scale wireless network by connecting drivers and data that collect and share information about your environment while driving. We propose a new driver distraction method that can detect various behaviours that distract the driver. With the emergence of deep learning methods and computer vision, the use of cameras and real-time processing of captured road scene videos has enabled extensive DAS functions.
+
+An approach based on deep learning and computer vision is used to develop multifunctional DAS systems. It works exactly like the driver's extra eyes and brain. Our system acts as a secure human-machine interface designed to improve road and vehicle safety. The proposed system also includes various detections such as lane detection, pedestrian detection, vehicle detection, road sign detection, traffic light detection, accident detection and weather detection. The detection model is implemented by using different detection algorithms, deep neural network (DNN) architecture and other equivalent models. Our system uses pre-trained and custom-trained models. In addition, the optimized model can be implemented on a suitable hardware platform and become an inexpensive portable vehicle accessory according to the user's needs.
 
 ## Installation
 
