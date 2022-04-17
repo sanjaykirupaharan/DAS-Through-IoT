@@ -58,9 +58,18 @@ https://user-images.githubusercontent.com/84900433/163722127-ce9f5669-18b5-4758-
 
 In this repository, we provide real-time location detection, object detection, lane line detection, traffic sign detection and the real-time Google map. You can find the code for the above in the Detections folder. 
 
+- Drowsiness detection
+
+  We used MediaPipe face mesh which is a face geometry solution that estimates 468 3D face landmarks in real-time even on mobile devices. It uses machine learning (ML) to derive 3D surface geometry and requires only a camera input without a dedicated depth sensor. By using lightweight model architecture and GPU acceleration throughout the process, the solution can deliver critical real-time performance for the live experience. The face geometry data is composed of common 3D geometric primitives, including face position transformation matrix and triangular face mesh.
+
+  The inbuilt camera will detect the face and start by localizing the facial landmarks by extracting the eye regions to determine if either the eyes are opened or closed. we will be monitoring the eye aspect ratio to see if the defined threshold value raise which is 0.5 in our case but does not increase again for a sufficiently long amount of consecutive frames, thus implying that the driver/user has closed their eyes. Then, the system will raise the alarm and also will inform the responsible person on behalf of the driver to avoid any mistakes. Here we used 3rd party cloud library package called Twilio to send SMS alerts.
+
+![DrowsiImage_m](https://user-images.githubusercontent.com/84900433/163725357-54a37569-2764-4e22-9ed1-3efdb0094ef4.png)
+
+
 - Real-time location detection
 
-![GPS_Diagram](https://user-images.githubusercontent.com/84900433/163723984-57899d82-c24a-477d-9dc8-efa5f2839581.jpg)
+  ![GPS_Diagram](https://user-images.githubusercontent.com/84900433/163723984-57899d82-c24a-477d-9dc8-efa5f2839581.jpg)
 
   The real-time location of the vehicles will be detected by using the GPS module which interferes with the raspberry pi. The algorithm will update the detected geo-coordinates of traffic signs, and accidents to the Firebase real-time database. 
 
@@ -79,7 +88,7 @@ In this repository, we provide real-time location detection, object detection, l
 
   We used Mask-RCNN to recognize lanes from massive manually annotated datasets and using the custom trained model the system detects the lane lines perfectly. The system will detect straight and dot lines on the road and draw the line on the detected lines. If the driver makes a mistake, then the system will warn the driver not to make it. For example, in our country overtaking in a straight line is a traffic rule violation. When the driver tries to overtake on a straight line then the system will warn the driver not to overtake through display notification and voice alert.
 
-![rcnn_lane](https://user-images.githubusercontent.com/84900433/163724291-b3bd552b-c271-4624-931b-e43c8a33d638.jpg)
+  ![rcnn_lane](https://user-images.githubusercontent.com/84900433/163724291-b3bd552b-c271-4624-931b-e43c8a33d638.jpg)
 
 - Traffic Sign Detection
 
@@ -90,7 +99,7 @@ In this repository, we provide real-time location detection, object detection, l
 
   Detected traffic signs along with the latitude and longitude will be stored in the Google Firebase real-time database.  All the traffic sign information is stored in the Google Firebase database and using a machine learning system that is run periodically on a daily basis or weekly basis, all the duplicated values a processed to get the average of the traffic sign location and stored in the processed traffic sign information to the Google Firebase Firestore database. From the Google Firebase Firestore database, all the required traffic sign information is displayed on the custom-developed Google map. 
 
-![WebImageNew](https://user-images.githubusercontent.com/84900433/163724695-78c5b9a0-c992-4ad1-b86f-dcefc1aefadd.jpg)
+  ![WebImageNew](https://user-images.githubusercontent.com/84900433/163724695-78c5b9a0-c992-4ad1-b86f-dcefc1aefadd.jpg)
 
 
 _For more information, please refer to the Deep Learning & Computer Vision for IoT based Intelligent Driver Assistant System [https://ieeexplore.ieee.org/abstract/document/9605823]._
