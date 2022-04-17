@@ -94,39 +94,12 @@ In this repository, we provide real-time location detection, object detection, l
 ![WebImageNew](https://user-images.githubusercontent.com/84900433/163724695-78c5b9a0-c992-4ad1-b86f-dcefc1aefadd.jpg)
 
 
-_For more information, please refer to the [Deep Learning & Computer Vision for IoT based Intelligent Driver Assistant System][https://ieeexplore.ieee.org/abstract/document/9605823]._
-
-## Development setup
-
-Describe how to install all development dependencies and how to run an automated test-suite of some kind. Potentially do this for multiple platforms.
-
-```sh
-make install
-npm test
-```
-
-## Release History
-
-- 0.2.1
-  - CHANGE: Update docs (module code remains unchanged)
-- 0.2.0
-  - CHANGE: Remove `setDefaultXYZ()`
-  - ADD: Add `init()`
-- 0.1.1
-  - FIX: Crash when calling `baz()` (Thanks @GenerousContributorName!)
-- 0.1.0
-  - The first proper release
-  - CHANGE: Rename `foo()` to `bar()`
-- 0.0.1
-  - Work in progress
+_For more information, please refer to the Deep Learning & Computer Vision for IoT based Intelligent Driver Assistant System [https://ieeexplore.ieee.org/abstract/document/9605823]._
 
 ## Meta
 
-Your Name – [@YourTwitter](https://twitter.com/dbader_org) – YourEmail@example.com
+Hirushiharan Thevendran – [Linkedin](https://www.linkedin.com/in/hirushiharan-thevendran-a08a82152?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B54o2t%2B3cRw6IQKiNxmk27A%3D%3D) – hirushiharant@gmail.com
 
-Distributed under the XYZ license. See `LICENSE` for more information.
-
-[https://github.com/yourname/github-link](https://github.com/dbader/)
 
 ## Contributing
 
