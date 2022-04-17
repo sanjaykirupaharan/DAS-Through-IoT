@@ -57,10 +57,9 @@ Mainly five steps followed under this process such as
 
 ## Results
 
+https://user-images.githubusercontent.com/84900433/163723299-8d3c127b-5dba-4b3a-83a8-8ac69fa138dc.mp4
 
-![alt text](https://github.com/hirushiharan/DAS-Through-IoT/blob/main/imgs/ThirdEye_Eddited.mp4?raw=true)
-
-![alt text](https://drive.google.com/file/d/1Fly79voSAxbU-fD5bRsQM3vmFuQ9S7aP/view?usp=sharing)
+https://user-images.githubusercontent.com/84900433/163722127-ce9f5669-18b5-4758-8977-d8b9a2d11556.mp4
 
 ## Installation
 
@@ -71,6 +70,10 @@ npm install my-crazy-module --save
 ```
 
 Windows:
+
+
+
+
 
 ```sh
 edit autoexec.bat
