@@ -64,7 +64,7 @@ In this repository, we provide real-time location detection, object detection, l
 
   The inbuilt camera will detect the face and start by localizing the facial landmarks by extracting the eye regions to determine if either the eyes are opened or closed. we will be monitoring the eye aspect ratio to see if the defined threshold value raise which is 0.5 in our case but does not increase again for a sufficiently long amount of consecutive frames, thus implying that the driver/user has closed their eyes. Then, the system will raise the alarm and also will inform the responsible person on behalf of the driver to avoid any mistakes. Here we used 3rd party cloud library package called Twilio to send SMS alerts.
 
-![DrowsiImage_m](https://user-images.githubusercontent.com/84900433/163725357-54a37569-2764-4e22-9ed1-3efdb0094ef4.png)
+  ![DrowsiImage_m](https://user-images.githubusercontent.com/84900433/163725357-54a37569-2764-4e22-9ed1-3efdb0094ef4.png)
 
 
 - Real-time location detection
@@ -102,7 +102,7 @@ In this repository, we provide real-time location detection, object detection, l
   ![WebImageNew](https://user-images.githubusercontent.com/84900433/163724695-78c5b9a0-c992-4ad1-b86f-dcefc1aefadd.jpg)
 
 
-_For more information, please refer to the Deep Learning & Computer Vision for IoT based Intelligent Driver Assistant System [https://ieeexplore.ieee.org/abstract/document/9605823]._
+_For more information, please refer to the [Deep Learning & Computer Vision for IoT based Intelligent Driver Assistant System](https://ieeexplore.ieee.org/abstract/document/9605823)._
 
 
 ## Reference
