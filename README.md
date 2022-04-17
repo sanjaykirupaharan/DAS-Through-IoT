@@ -13,15 +13,6 @@ With the exponential growth of vehicles, there is also a rapid increase in road 
 - [Background](#background)
   - [TER](#typo3-extension-repository)
 - [Installation](#installation)
-  - [TER](#typo3-extension-repository)
-- [TYPO3 setup](#typo3-setup)
-  - [Extension](#extension)
-  - [Database](#database)
-- [Page setup](#page-setup)
-  - [Upload the page tree file](#upload-the-page-tree-file)
-  - [Go to the import view](#go-to-the-import-view)
-  - [Import the page tree](#import-the-page-tree)
-  - [SEO-friendly URLs](#seo-friendly-urls)
 - [License](#license)
 - [Links](#links)
 
@@ -69,7 +60,7 @@ Mainly five steps followed under this process such as
 
 ![alt text](https://github.com/hirushiharan/DAS-Through-IoT/blob/main/imgs/ThirdEye_Eddited.mp4?raw=true)
 
-![alt text](https://github.com/hirushiharan/DAS-Through-IoT/blob/main/imgs/Final_Editted.mp4?raw=true)
+![alt text](https://drive.google.com/file/d/1Fly79voSAxbU-fD5bRsQM3vmFuQ9S7aP/view?usp=sharing)
 
 ## Installation
 
