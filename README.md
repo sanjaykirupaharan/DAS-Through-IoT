@@ -11,8 +11,7 @@ With the exponential growth of vehicles, there is also a rapid increase in road 
 - [Overview](#overview)
 - [Results](#results)
 - [Usage](#usage)
-- [License](#license)
-- [Links](#links)
+- [Reference](#reference)
 
 ## Overview
 
@@ -96,15 +95,18 @@ In this repository, we provide real-time location detection, object detection, l
 
 _For more information, please refer to the Deep Learning & Computer Vision for IoT based Intelligent Driver Assistant System [https://ieeexplore.ieee.org/abstract/document/9605823]._
 
-## Meta
 
-Hirushiharan Thevendran – [Linkedin](https://www.linkedin.com/in/hirushiharan-thevendran-a08a82152?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B54o2t%2B3cRw6IQKiNxmk27A%3D%3D) – hirushiharant@gmail.com
+## Reference
+
+1. [Location Detection](https://lastminuteengineers.com/neo6m-gps-arduino-tutorial/)
+2. [Custom Training With PixelLib](https://pixellib.readthedocs.io/en/latest/custom_train.html)
+3. [Custom Training With YOLO](https://blog.roboflow.com/yolov5-v6-0-is-here/)
+4. [Website](https://www.youtube.com/watch?v=ZBLrwThHKyM&list=PL8NTBhIXP2gHG95OHjwWtlIUvEhRRXo9F)
 
 
-## Contributing
+## Contact
 
-1. Location Detection (https://lastminuteengineers.com/neo6m-gps-arduino-tutorial/)
-2. 
+Hirushiharan Thevendran – [Linkedin](https://www.linkedin.com/in/hirushiharan-thevendran-a08a82152?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B54o2t%2B3cRw6IQKiNxmk27A%3D%3D) – [Email](hirushiharant@gmail.com)
 
 <!-- Markdown link & img dfn's -->
 
