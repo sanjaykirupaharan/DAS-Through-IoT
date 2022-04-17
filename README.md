@@ -57,13 +57,44 @@ https://user-images.githubusercontent.com/84900433/163722127-ce9f5669-18b5-4758-
 
 ## Usage
 
-In this repository, we provide codes for real-time location detection, object detection, lane line detecion, traffic sign detection and the 
+In this repository, we provide real-time location detection, object detection, lane line detection, traffic sign detection and the real-time Google map. You can find the code for the above in the Detections folder. 
 
-- 0.2.1
-- 0.2.0
+- Real-time location detection
+
+![GPS_Diagram](https://user-images.githubusercontent.com/84900433/163723984-57899d82-c24a-477d-9dc8-efa5f2839581.jpg)
+
+  The real-time location of the vehicles will be detected by using the GPS module which interferes with the raspberry pi. The algorithm will update the detected geo-coordinates of traffic signs, and accidents to the Firebase real-time database. 
+
+  Each vehicle with our system will detect the signs and accidents and update them to our database. And also, the GPS location detection is not 100% every time. The decimal points may vary. Therefore, for the same scenario, there must be more than two coordinates in the database. For the issue, we use a simple machine learning algorithm to get the average coordinates of the same signs or accidents daily once and update the new coordinate to our database. The new coordinates will display with the custom maker in the customized google maps and according to the driver's current location. The traffic signs and the accident information will be displayed to the website authorised user and the voice alerts will be there according to the drivers' direction.
+
+  
+- Object Detection
+
+  The most important part of DAS is detecting objects during the driver's journey and warning the driver to avoid collisions. Object detection is a computer vision technique used to locate object instances in images, and videos. It is the core technology behind applications such as surveillance systems, image retrieval systems and driver assistance systems. In our system, we tested the Haar cascade classifier, YOLOv3 and YOLOv5 methods to detect objects. Finally, we chose the YOLOv5 model since it gave a better performance than other models.
+
+  If there are objects such as people, bicycles, cars and trucks, and animals within the visible area of the camera, our system will detect them. Our system involves identifying, classifying and locating any object in an image by extracting the appropriate bounding box enclosing the object, and we can detect several at once. If a collision is imminent, our system will notify the driver.
+  
+  ![ObjectImage](https://user-images.githubusercontent.com/84900433/163724275-73b81855-e453-4587-a88b-063107253f13.jpg)
+  
+- Lane Line Detection
+
+  We used Mask-RCNN to recognize lanes from massive manually annotated datasets and using the custom trained model the system detects the lane lines perfectly. The system will detect straight and dot lines on the road and draw the line on the detected lines. If the driver makes a mistake, then the system will warn the driver not to make it. For example, in our country overtaking in a straight line is a traffic rule violation. When the driver tries to overtake on a straight line then the system will warn the driver not to overtake through display notification and voice alert.
+
+![rcnn_lane](https://user-images.githubusercontent.com/84900433/163724291-b3bd552b-c271-4624-931b-e43c8a33d638.jpg)
+
+- Traffic Sign Detection
+
+  The traffic signboard detection algorithm will detect the traffic signboard using our trained model and it will update the latitude and longitude of the signboard to the database while indicating the stored value on the created google map. The user will get constant alerts about the upcoming signboard throughout the journey. Created custom traffic sign dataset and the convolutional neural network (CNN) algorithm is used in conjunction with the Google Co-laboratory to train the model.
 
 
-_For more examples and usage, please refer to the [Wiki][wiki]._
+- Custom Developed Google Maps
+
+  Detected traffic signs along with the latitude and longitude will be stored in the Google Firebase real-time database.  All the traffic sign information is stored in the Google Firebase database and using a machine learning system that is run periodically on a daily basis or weekly basis, all the duplicated values a processed to get the average of the traffic sign location and stored in the processed traffic sign information to the Google Firebase Firestore database. From the Google Firebase Firestore database, all the required traffic sign information is displayed on the custom-developed Google map. 
+
+![WebImageNew](https://user-images.githubusercontent.com/84900433/163724695-78c5b9a0-c992-4ad1-b86f-dcefc1aefadd.jpg)
+
+
+_For more information, please refer to the [Deep Learning & Computer Vision for IoT based Intelligent Driver Assistant System][https://ieeexplore.ieee.org/abstract/document/9605823]._
 
 ## Development setup
 
@@ -99,11 +130,8 @@ Distributed under the XYZ license. See `LICENSE` for more information.
 
 ## Contributing
 
-1. Fork it (<https://github.com/yourname/yourproject/fork>)
-2. Create your feature branch (`git checkout -b feature/fooBar`)
-3. Commit your changes (`git commit -am 'Add some fooBar'`)
-4. Push to the branch (`git push origin feature/fooBar`)
-5. Create a new Pull Request
+1. Location Detection (https://lastminuteengineers.com/neo6m-gps-arduino-tutorial/)
+2. 
 
 <!-- Markdown link & img dfn's -->
 
