@@ -8,13 +8,12 @@ With the exponential growth of vehicles, there is also a rapid increase in road 
 
 ## Table of content
 
-- [Introduction](#introduction
+- [Introduction](#introduction)
   - [Project Overview](#project_overview)
 - [Background](#background)
   - [TER](#typo3-extension-repository)
 - [Installation](#installation)
   - [TER](#typo3-extension-repository)
-  - [Composer](#composer)
 - [TYPO3 setup](#typo3-setup)
   - [Extension](#extension)
   - [Database](#database)
@@ -62,6 +61,15 @@ Mainly five steps followed under this process such as
   The relevant information such as Traffic sign location, accident location and animal location along with the name is stored in the database.
 - Step 5- Interface Management
   When the driver enters his destination, the Google map-based custom-developed map shows all the relevant information through his journeys, such as traffic signs, accidents and animals and notify the driver.
+
+![alt text](https://github.com/hirushiharan/DAS-Through-IoT/blob/main/imgs/System%20Flowchart.png?raw=true)
+
+## Results
+
+
+![alt text](https://github.com/hirushiharan/DAS-Through-IoT/blob/main/imgs/ThirdEye_Eddited.mp4?raw=true)
+
+![alt text](https://github.com/hirushiharan/DAS-Through-IoT/blob/main/imgs/Final_Editted.mp4?raw=true)
 
 ## Installation
 
