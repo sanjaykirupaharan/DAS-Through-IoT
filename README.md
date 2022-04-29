@@ -97,7 +97,18 @@ In this repository, we provide real-time location detection, object detection, l
   Create your Firebase account in [Firebase Console](https://console.firebase.google.com/)
   
   1. FirebasePiLocationUpdate.py
-        This Python file can only run from Raspberry Pi. Add your generated Firebase SDK JSON file and Firebase database URL to the code. Connect the Raspberry Pi and GPS module by the given [circuit diagram](https://www.hackster.io/bhushanmapari/interfacing-u-blox-neo-6m-gps-module-with-raspberry-pi-3d15a5) and run the file. The current location will be uploaded into the Firebase Real-Time database.
+      
+      This Python file can only run from Raspberry Pi. Add your generated Firebase SDK JSON file and Firebase database URL to the code. Connect the Raspberry Pi and GPS module by the given [circuit diagram](https://www.hackster.io/bhushanmapari/interfacing-u-blox-neo-6m-gps-module-with-raspberry-pi-3d15a5) and run the file. The current location will be uploaded into the Firebase Real-Time database.
+      
+  3. RetrieveDuplicateSave.py
+  
+      This Python file can run periodically. This will check for duplicated values in the Firebase Real-Time database. If any duplicated values is there, then filter the average value and store it in the Firebase Firestore.
+
+
+        
+        
+        
+        
 
 
 
