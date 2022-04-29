@@ -93,7 +93,11 @@ https://user-images.githubusercontent.com/84900433/163722127-ce9f5669-18b5-4758-
 In this repository, we provide real-time location detection, object detection, lane line detection, traffic sign detection and the real-time Google map. You can find the code for the above in the Detections folder. 
 
 - [Database](Code/Detections/Database/)
-
+  
+  Create your Firebase account in [Firebase Console](https://console.firebase.google.com/)
+  
+  1. FirebasePiLocationUpdate.py
+        This Python file can only run from Raspberry Pi. Add your generated Firebase SDK JSON file and Firebase database URL to the code. Connect the Raspberry Pi and GPS module by the given [circuit diagram](https://www.hackster.io/bhushanmapari/interfacing-u-blox-neo-6m-gps-module-with-raspberry-pi-3d15a5) and run the file. The current location will be uploaded into the Firebase Real-Time database.
 
 
 
