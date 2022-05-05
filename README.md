@@ -153,7 +153,8 @@ _For more information, refer to the [Deep Learning & Computer Vision for IoT bas
 
 ## Contact
 
-Hirushiharan Thevendran – [Linkedin](https://www.linkedin.com/in/hirushiharan-thevendran-a08a82152?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B54o2t%2B3cRw6IQKiNxmk27A%3D%3D) – [Email](hirushiharant@gmail.com)
+- Hirushiharan Thevendran – [LinkedIn](https://www.linkedin.com/in/hirushiharan-thevendran-a08a82152?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B54o2t%2B3cRw6IQKiNxmk27A%3D%3D) – [Email](hirushiharant@gmail.com)
+- Ashaya Nagendran - [LinkedIn](https://www.linkedin.com/in/akshaya-nagendran-437557196?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BKC%2FsFC%2FSQWmXOpQ1l7dtSw%3D%3D) - [Email](akshayanagendran52@gmail.com)
 
 <!-- Markdown link & img dfn's -->
 
