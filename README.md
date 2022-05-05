@@ -90,7 +90,7 @@ https://user-images.githubusercontent.com/84900433/163722127-ce9f5669-18b5-4758-
 
 ## Usage
 
-In this repository, we provide real-time location detection, object detection, lane line detection, traffic sign detection and the real-time Google map. You can find the code for the above in the Detections folder. 
+   In this repository, we provide real-time location detection, object detection, lane line detection, traffic sign detection and the real-time Google map. You can find the code for the above in the Detections folder. 
 
 - Do the below changes in [Database](Code/Detections/Database/)
   
@@ -105,7 +105,7 @@ In this repository, we provide real-time location detection, object detection, l
       This Python file can run periodically. This will check for duplicated values in the Firebase Real-Time database. If any duplicated values is there, then filter the average value and store it in the Firebase Firestore.
 
 
-Run [Outside_Camera.py](Code/Outside_Camera.py)
+   Run [Outside_Camera.py](Code/Outside_Camera.py)
 
 - Do the below changes in [Drowsiness](Code/Detections/Drowsiness/)/[drowsiness.py](Code/Detections/Drowsiness/drowsiness.py)
       
