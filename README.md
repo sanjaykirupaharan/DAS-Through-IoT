@@ -94,7 +94,7 @@ In this repository, we provide real-time location detection, object detection, l
 
 1. Do the below changes in [Database](Code/Detections/Database/)
   
-  Create your Firebase account in [Firebase Console](https://console.firebase.google.com/)
+    Create your Firebase account in [Firebase Console](https://console.firebase.google.com/)
   
 - [FirebasePiLocationUpdate.py](Code/Detections/Database/FirebasePiLocationUpdate.py)
       
