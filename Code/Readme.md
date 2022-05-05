@@ -1,1 +1,1 @@
-- [Detections](Code/Detections/)
+- [Detections](Detections/)
