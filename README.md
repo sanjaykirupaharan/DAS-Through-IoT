@@ -92,7 +92,7 @@ https://user-images.githubusercontent.com/84900433/163722127-ce9f5669-18b5-4758-
 
 In this repository, we provide real-time location detection, object detection, lane line detection, traffic sign detection and the real-time Google map. You can find the code for the above in the Detections folder. 
 
-- [Database](Code/Detections/Database/)
+Do the below changes in [Database](Code/Detections/Database/)
   
   Create your Firebase account in [Firebase Console](https://console.firebase.google.com/)
   
@@ -105,11 +105,13 @@ In this repository, we provide real-time location detection, object detection, l
       This Python file can run periodically. This will check for duplicated values in the Firebase Real-Time database. If any duplicated values is there, then filter the average value and store it in the Firebase Firestore.
 
 
-- [Drowsiness](Code/Detections/Drowsiness/)
+Run [Outside_Camera.py](Code/Outside_Camera.py)
 
-     [drowsiness.py](Code/Detections/Drowsiness/drowsiness.py)
+Do the below changes in [Drowsiness](Code/Detections/Drowsiness/)
+
+   [drowsiness.py](Code/Detections/Drowsiness/drowsiness.py)
       
-     Create your [TWILIO](https://www.twilio.com/) account. Add your credentials in 
+   Create your [TWILIO](https://www.twilio.com/) account. Add your credentials in 
      
      ```python
       def message():
@@ -126,21 +128,7 @@ In this repository, we provide real-time location detection, object detection, l
         body="Driver is Sleeping....")
     print("[INFO] sending message...")
      ```
-
-
-
-
-- s
-  
-  
-
-
-        
-        
-        
-        
-
-
+Run [Inside_Camera.py](Code/Inside_Camera.py)
 
 
 ## Reference
