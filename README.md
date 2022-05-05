@@ -90,24 +90,24 @@ https://user-images.githubusercontent.com/84900433/163722127-ce9f5669-18b5-4758-
 
 ## Usage
 
-   In this repository, we provide real-time location detection, object detection, lane line detection, traffic sign detection and the real-time Google map. You can find the code for the above in the Detections folder. 
+In this repository, we provide real-time location detection, object detection, lane line detection, traffic sign detection and the real-time Google map. You can find the code for the above in the Detections folder. 
 
-- Do the below changes in [Database](Code/Detections/Database/)
+1. Do the below changes in [Database](Code/Detections/Database/)
   
   Create your Firebase account in [Firebase Console](https://console.firebase.google.com/)
   
-1. [FirebasePiLocationUpdate.py](Code/Detections/Database/FirebasePiLocationUpdate.py)
+- [FirebasePiLocationUpdate.py](Code/Detections/Database/FirebasePiLocationUpdate.py)
       
-      This Python file can only run from Raspberry Pi. Add your generated Firebase SDK JSON file and Firebase database URL to the code. Connect the Raspberry Pi and GPS module by the given [circuit diagram](https://www.hackster.io/bhushanmapari/interfacing-u-blox-neo-6m-gps-module-with-raspberry-pi-3d15a5) and run the file. The current location will be uploaded into the Firebase Real-Time database.
+     This Python file can only run from Raspberry Pi. Add your generated Firebase SDK JSON file and Firebase database URL to the code. Connect the Raspberry Pi and GPS module by the given [circuit diagram](https://www.hackster.io/bhushanmapari/interfacing-u-blox-neo-6m-gps-module-with-raspberry-pi-3d15a5) and run the file. The current location will be uploaded into the Firebase Real-Time database.
       
-2. [RetrieveDuplicateSave.py](Code/Detections/Database/RetrieveDuplicateSave.py)
+- [RetrieveDuplicateSave.py](Code/Detections/Database/RetrieveDuplicateSave.py)
   
-      This Python file can run periodically. This will check for duplicated values in the Firebase Real-Time database. If any duplicated values is there, then filter the average value and store it in the Firebase Firestore.
+     This Python file can run periodically. This will check for duplicated values in the Firebase Real-Time database. If any duplicated values is there, then filter the average value and store it in the Firebase Firestore.
 
 
    Run [Outside_Camera.py](Code/Outside_Camera.py)
 
-- Do the below changes in [Drowsiness](Code/Detections/Drowsiness/)/[drowsiness.py](Code/Detections/Drowsiness/drowsiness.py)
+2. Do the below changes in [Drowsiness](Code/Detections/Drowsiness/)/[drowsiness.py](Code/Detections/Drowsiness/drowsiness.py)
       
    Create your [TWILIO](https://www.twilio.com/) account. Add your credentials in 
      
@@ -126,7 +126,7 @@ https://user-images.githubusercontent.com/84900433/163722127-ce9f5669-18b5-4758-
         body="Driver is Sleeping....")
     print("[INFO] sending message...")
      ```
-Run [Inside_Camera.py](Code/Inside_Camera.py)
+   Run [Inside_Camera.py](Code/Inside_Camera.py)
 
 
 ## Reference
