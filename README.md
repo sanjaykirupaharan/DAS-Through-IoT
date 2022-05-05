@@ -92,7 +92,7 @@ https://user-images.githubusercontent.com/84900433/163722127-ce9f5669-18b5-4758-
 
 In this repository, we provide real-time location detection, object detection, lane line detection, traffic sign detection and the real-time Google map. You can find the code for the above in the Detections folder. 
 
--Do the below changes in [Database](Code/Detections/Database/)
+- Do the below changes in [Database](Code/Detections/Database/)
   
   Create your Firebase account in [Firebase Console](https://console.firebase.google.com/)
   
@@ -107,7 +107,7 @@ In this repository, we provide real-time location detection, object detection, l
 
 Run [Outside_Camera.py](Code/Outside_Camera.py)
 
--Do the below changes in [Drowsiness](Code/Detections/Drowsiness/)/[drowsiness.py](Code/Detections/Drowsiness/drowsiness.py)
+- Do the below changes in [Drowsiness](Code/Detections/Drowsiness/)/[drowsiness.py](Code/Detections/Drowsiness/drowsiness.py)
       
    Create your [TWILIO](https://www.twilio.com/) account. Add your credentials in 
      
